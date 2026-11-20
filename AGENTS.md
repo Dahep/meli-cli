@@ -2,6 +2,10 @@
 
 meli-cli — `meli`, a read-only MercadoLibre Chile (MLC) CLI: search live listings and emit JSON for agents and humans. `SPEC.md` is the design contract; domain language lives in `CONTEXT.md`; design decisions in `docs/adr/`.
 
+## Shipping
+
+Work lands as a branch plus a PR; never commit to or push `main` directly, and never rewrite its history — the machine-wide rules in `~/.config/opencode/AGENTS.md` apply here unchanged. The initial setup commit (`0d2000d`, the engineering-skills scaffold) was a one-time exception granted explicitly for that setup and is **not** a precedent: the repo has no merge gate yet, but that is not permission to bypass review.
+
 ## Agent skills
 
 ### Issue tracker
