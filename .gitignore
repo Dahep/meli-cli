@@ -1,0 +1,7 @@
+# build output
+/meli
+/dist/
+
+# local credentials must never be committed
+credentials.json
+config.local.json
